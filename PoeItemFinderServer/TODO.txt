@@ -1,0 +1,21 @@
+﻿
+Convertera RiverUpdate-Item till något som går att slänga in i databasen
+	pricestring -> chaos
+	spara länkarna
+	datum
+
+Sätt upp databasen
+	importera connection lib
+
+processera riverupdate
+	nya items läggs till i databasen
+	items som fattas tas bort/flyttas? kan vara bättre att markera som såld
+	items med samma id men ny pristagg/i ett nytt stash updateras
+
+skicka items till klienten
+
+
+
+Icebox:
+	fixa så rare items också prisas (väldigt mycket jobb)
+	läs in mods så de blir jämnförbara

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PoeItemFinder", "PoeItemFinder\PoeItemFinder.shproj", "{5603F7BD-B672-4F05-AF03-8078AD2F5523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeItemFinderServer", "PoeItemFinderServer\PoeItemFinderServer.csproj", "{4F5C5A68-75D6-4BCF-9701-E54D1A5176F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeItemFinderClient", "PoeItemFinderClient\PoeItemFinderClient.csproj", "{46970B72-F520-4950-A8C1-B1D1D18F481B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PoeItemFinder\PoeItemFinder.projitems*{5603f7bd-b672-4f05-af03-8078ad2f5523}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5C5A68-75D6-4BCF-9701-E54D1A5176F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5C5A68-75D6-4BCF-9701-E54D1A5176F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5C5A68-75D6-4BCF-9701-E54D1A5176F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5C5A68-75D6-4BCF-9701-E54D1A5176F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46970B72-F520-4950-A8C1-B1D1D18F481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46970B72-F520-4950-A8C1-B1D1D18F481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46970B72-F520-4950-A8C1-B1D1D18F481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46970B72-F520-4950-A8C1-B1D1D18F481B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

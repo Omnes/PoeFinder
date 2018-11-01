@@ -1,0 +1,30 @@
+﻿<Window x:Name="Server" x:Class="PoeItemFinderServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PoeItemFinderServer"
+        mc:Ignorable="d"
+        Title="Server" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="start_button" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.5,0.5" Click="start_button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.102"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="stop_button" Content="Stop" HorizontalAlignment="Left" Margin="66,10,0,0" VerticalAlignment="Top" Width="43" Click="stop_button_Click"/>
+        <RichTextBox x:Name="console_log" HorizontalAlignment="Left" Height="221" Margin="23,58,0,0" VerticalAlignment="Top" Width="433">
+            <FlowDocument>
+                <Paragraph>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+
+    </Grid>
+</Window>
